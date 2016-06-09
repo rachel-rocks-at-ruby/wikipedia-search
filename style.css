@@ -1,0 +1,53 @@
+body {
+  background-color: #00AAA0;
+  color: #FCF4D9;
+}
+
+#box {
+  width: 250px;
+  margin-top: 8%;
+}
+
+#title {
+  margin-bottom: 5px;
+}
+
+.btn {
+  background-color: #FCF4D9;
+  color: #00AAA0;
+}
+
+.btn:hover {
+  background-color: #8ED2C9;
+  color: #FCF4D9;
+}
+
+#lucky {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#lucky a {
+  color: #FCF4D9;
+}
+
+#lucky a:hover {
+  text-decoration: none;
+  color: lightgray;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+.wiki {
+  background-color: #8ED2C9;
+  width: 70%;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 10px;
+}
+
+.wiki:hover {
+  color: #462066;
+}

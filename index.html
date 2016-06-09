@@ -1,0 +1,13 @@
+<div id="box" class='center-block'>
+  <h4 id='title'>Search Wikipedia</h4>
+  <form id="search-form" class="input-group">
+    <input type="text" class="form-control" name="search" id="search" placeholder="Search for...">
+    <span class="input-group-btn">
+      <button class="btn btn-default" onclick='runSearch()' onKeyPress="return checkSubmit(event)" type="button">Go!</button>
+    </span>
+  </form>
+  <div id='lucky'><a href='https://en.wikipedia.org/wiki/Special:Random' target='blank'>Feeling lucky?</a></div>
+</div>
+
+<div id='results'>
+</div>
